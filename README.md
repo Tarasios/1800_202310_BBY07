@@ -2,13 +2,13 @@
 
 ## 1. Project Description
 State your app in a nutshell, or one-sentence pitch. Give some elaboration on what the core features are.  
-This browser based web application to ... 
+This browser based web application will be an engaging game which will attract users, so they can become more aware of the dangers of extreme weather. 
 
 ## 2. Names of Contributors
 List team members and/or short bio's here... 
 * Muhammad Zia
-* ...
-* ...
+* Kevin Liang
+* Tarasios, aka Cassiel WIlliams.
 	
 ## 3. Technologies and Resources Used
 List technologies (with version numbers), API's, icons, fonts, images, media or data sources, and other resources that were used.
