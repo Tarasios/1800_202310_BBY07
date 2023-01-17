@@ -1,8 +1,7 @@
 # Project Title
 
 ## 1. Project Description
-State your app in a nutshell, or one-sentence pitch. Give some elaboration on what the core features are.  
-This browser based web application will be an engaging game which will attract users, so they can become more aware of the dangers of extreme weather. 
+We are developing a 2D "Choose Your Own Adventure" game that educates and raises awareness about the dangers of extreme weather through interactive scenarios, personal connections, and achievements, with a focus on time efficiency and the ability to replay and improve upon past decisions to increase player engagement and impact.
 
 ## 2. Names of Contributors
 List team members and/or short bio's here... 
