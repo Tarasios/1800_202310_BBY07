@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Pexico" ;
+  src: url("font/Pexico-Regular.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pexico", sans-serif;
+}
+
+button {
+  font-family: "Pexico", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#container {
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #68dc5d;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  justify-content: space-evenly
+}
+
+#menu-container {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  position: relative;
+  border: 1px solid #000;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 90vw;
+  height: 100vw;
+  max-height: 80vh;
+  max-width: 90vh;
+}
+
+#main-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#menu-close-button {
+  position: relative;
+  text-align: end;
+  width: 100%;
+}
+
+#menu-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+#menu-tabs > button {
+  width: 100%;
+  margin: 2px;
+}
+
+#menu-header {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#bottom-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#bottom-buttons > button {
+  width: 100%;
+  margin: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#menu-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 2px;
+}
