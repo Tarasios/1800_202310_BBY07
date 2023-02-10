@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pexico" ;
-  src: url("font/Pexico-Regular.otf") format("opentype");
+  src: url("../font/Pexico-Regular.otf") format("opentype");
 }
 
 body {
