@@ -1,0 +1,39 @@
+{
+    "tasks": [
+        {
+            "element": "longGrass",
+            "name": "Mow Overgrown Grass",
+            "description": "Keep grass and weeds cut..."
+        },
+        {
+            "element": "uncutTree",
+            "name": "Prune Tree",
+            "description": "Prune trees to create a two-meter clearance..."
+        },
+        {
+            "element": "firewood",
+            "name": "Move Firewood",
+            "description": "Move firewood and lumber away from home..."
+        },
+        {
+            "element": "leaves",
+            "name": "Rake fallen leaves",
+            "description": "Keep a combustible-free perimeter..."
+        },
+        {
+            "element": "propane",
+            "name": "Move propane tanks",
+            "description": "Move explosives away from home..."
+        },
+        {
+            "element": "sprinklers",
+            "name": "mount sprinklers",
+            "description": "Mount automatic sprinklers on your home..."
+        },
+        {
+            "element": "dirtyGutters",
+            "name": "Clear gutters",
+            "description": "Clean out your gutters..."
+        }
+    ]
+}
