@@ -5,9 +5,12 @@ document.getElementById("lawnmower").addEventListener("click", function () {
   backButton();
   document.getElementById("background").style.transform = "scale(3)";
   document.getElementById("lawnmower").style.opacity = 1;
-  document
-    .getElementById("lawnmower")
-    .scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+  document.getElementById("background-container").scrollTo({
+    top: 700,
+    left: 500,
+    behavior: "smooth",
+  });
+  document.getElementById("bottom").style.display = "block";
 });
 
 const backButton = () => {
@@ -17,5 +20,7 @@ const backButton = () => {
     document.getElementById("background").style.transform = "scale(1)";
     document.getElementById("lawnmower").style.opacity = 0;
     document.getElementById("back-button").style.display = "none";
+    document.getElementById("bottom").style.display = "none";
+
   });
 };
