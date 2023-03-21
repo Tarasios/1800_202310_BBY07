@@ -2,36 +2,78 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
-    <meta name="comp1800 template" content="My 1800 App">
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap Library CSS CDN go here -->
-    <!-- Boostrap Library JS CDN  go here -->
-
-    <!-- Other libraries go here -->
-
-    <!-- Link to styles of your own -->
-    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBY-07</title>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
+  <div id="container">
+    <button id="back-button">
+      back
+    </button>
+    <div id="task-counter">
+      <div id="task-counter-text">
+        <p><span id="task-counter-number">0/3</span></p>
+      </div>
+    </div>
+    <div id="background-container">
+      <div id="background">
+        <div id="items">
+          <img id="lawnmower" src="./images/lawnmower.svg" alt="lawnmower">
+        </div>
+        <img id="background-image" src="./images/background.svg" alt="background">
+      </div>
+    </div>
+  </div>
+  <div id="bottom">
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
+    <div id="item-name">
+      Lawnmower
+    </div>
+    <div id="bottom-container">
+      <div id="item-description">
+        <p><strong>A mowed lawn is a fire-resistant lawn</strong></p>
+        <p>
+          Grass shorter than 10 centimetres is less likely to burn intensely. Ensure your lawn is well-hydrated, as dry
+          grass has a higher flammability potential.
+        </p>
+      </div>
+      <div>
+        <button id="item-button">
+          Mow your lawn!
+        </button>
+      </div>
+    </div>
 
-    <!---------------------------------------------->
-    <!-- Your own JavaScript functions go here    -->
-    <!---------------------------------------------->
-
-    <!-- Link to scripts of your own -->
-    <!-- <script src="./scripts/script.js"></script> -->
-
+    <!-- <div id="tasks">
+      <div>
+        Tasks:
+        <div id="task-list">
+          <input type="checkbox" id="task1" name="task1">
+          <label for="task1"> Keep Grass and weeds cut</label><br>
+          <input type="checkbox" id="task2" name="task2">
+          <label for="task2"> Prune trees to create two-meter distance</label><br>
+          <input type="checkbox" id="task3" name="task3">
+          <label for="task3"> Move firewood and lumber away from house</label><br>
+        </div>
+      </div>
+    </div>
+    <div id="options">
+      <div>
+        Options:
+        <div id="option-list">
+          <input type="checkbox" id="option1" name="option1">
+          <label for="option1"> Option 1</label><br>
+          <input type="checkbox" id="option2" name="option2">
+          <label for="option2"> Option 2</label><br>
+        </div>
+      </div>
+    </div> -->
+  </div>
 </body>
+<script type="text/javascript" src="./scripts/index.js"></script>
 
 </html>
